@@ -1,0 +1,198 @@
+#about-me {
+  padding: 0;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, salmon 0%, #acb6e5 100%);
+}
+
+.about-me-details {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: space-around;
+  background-color: white;
+  width: 92%;
+  margin: 1em 2em;
+  height: 100%;
+  padding: 1.5em;
+}
+.left-right-wrapper {
+  display: flex;
+}
+.about-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+  padding-top: 20px;
+  height: 100%;
+}
+.skill-pair {
+  height: 100%;
+}
+.about-right {
+  // background-color: blue;
+  justify-content: center;
+  width: 35%;
+  height: 100%;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.profilePicture {
+  border-radius: 100%;
+}
+.cv-button {
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+}
+.about-me-paragraph {
+  text-align: center;
+  font-size: 1.2em;
+  width: 80%;
+}
+.skill-pair {
+  width: 20%;
+}
+.js {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/js.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.react {
+  height: 70px;
+  width: 70px;
+  background-image: url('../../img/icons/react.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.mongodb {
+  height: 70px;
+  width: 70px;
+  background-image: url('../../img/icons/mongodb.svg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.materialui {
+  height: 70px;
+  width: 70px;
+  background-image: url('../../img/icons/materialui.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.node {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/node.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.git {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/git.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.redux {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/redux.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.html {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/html.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.css {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/css.svg');
+  background-repeat: no-repeat;
+  background-size: 90%;
+}
+.styled-components {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/styled-components.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.sass {
+  height: 60px;
+  width: 60px;
+  background-image: url('../../img/icons/sass.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 1000px) {
+  .skill {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media (max-width: 910px) {
+  .profilePicture {
+    height: 130px;
+  }
+
+  .about-me-paragraph {
+    width: 95%;
+    font-size: 1.2em;
+  }
+}
+@media (max-width: 800px) {
+  .about-left {
+    width: 100%;
+    height: 100%;
+  }
+  .about-right {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .about-me-paragraph {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .about-me-paragraph {
+    width: 95%;
+  }
+  .profilePicture {
+    height: 100px;
+  }
+}
+
+@media (max-width: 410px) {
+  .profilePicture {
+    height: 100px;
+  }
+  .about-me-paragraph {
+    width: 95%;
+    font-size: 1em;
+  }
+}
+@media (max-width: 290px) {
+  .profilePicture {
+    height: 80px;
+  }
+  .about-me-paragraph {
+    width: 100%;
+    font-size: 0.7em;
+  }
+  .cv-email-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}

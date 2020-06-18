@@ -1,0 +1,18 @@
+.selector-project-button {
+  background-color: transparent;
+  color: white;
+  padding: 0.3em 1.3em;
+  margin: 1em 0 0 1em;
+  border: none;
+  font-size: large;
+  font-weight: bold;
+  background-image: linear-gradient(to right, salmon 0%, #acb6e5 100%);
+  background-size: 0;
+  background-repeat: no-repeat;
+  display: inline;
+  transition: 0.5s ease;
+  &:hover {
+    background-size: 100%;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+h1,
+p {
+  color: #2e2e2e;
+  font-weight: 400;
+}
+.text-pink {
+  color: salmon;
+}
+.section {
+  justify-content: center;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  // height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+.title {
+  font-size: 4em;
+  text-align: center;
+  margin: 0 0 0.3em 0;
+}
+.button-outline {
+  background-color: white;
+  padding: 0.5em 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  border: 2px solid #2e2e2e;
+}
+button:focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .title {
+    font-size: 2.8em;
+  }
+}
+
+@media (max-width: 250px) {
+  .title {
+    font-size: 1.7em;
+  }
+}
