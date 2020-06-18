@@ -36,7 +36,7 @@ function AboutMe() {
             <div className="cv-email-buttons">
               <Button
                 variant="outlined"
-                href="https://drive.google.com/file/d/1c3TbCnht2TSS2nYv9Znaua-w6iZ4R1kO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1PCXJpCsTQjKXgLb2A42yaDgMNHy9pcAl/view?usp=sharing"
                 className="cv-button"
                 target="_blank"
                 rel="noopener noreferrer"
