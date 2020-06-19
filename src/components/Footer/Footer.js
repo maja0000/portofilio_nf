@@ -44,7 +44,7 @@ export default function Footer() {
           height="20px"
         />
       </a>
-      <a href="https://drive.google.com/file/d/1c3TbCnht2TSS2nYv9Znaua-w6iZ4R1kO/view">
+      <a href="https://drive.google.com/file/d/1PCXJpCsTQjKXgLb2A42yaDgMNHy9pcAl/view">
         <img
           style={{ marginRight: '10px' }}
           src={cv}
