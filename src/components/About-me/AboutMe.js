@@ -58,7 +58,8 @@ function AboutMe() {
               I always look for new skills and ways to improve myself.
               Previously working as a team leader, I know what takes to build a
               good team and what comes after, great product! I'm in a hunt for a
-              new interesting project to work on! <br />
+              new interesting project to work on! Currently learning React
+              Native and Typescript! <br />
               <br />
               Scroll down to have a look at some of my latest work.
               <br /> In case of any questions, I'll be happy to hear from you!
