@@ -62,7 +62,11 @@ function AboutMe() {
               look for better, easier solutions to difficult problems. Currently
               learning React Native and Typescript! You can read about the way I
               work{' '}
-              <a href="https://how-i-work.netlify.app/">
+              <a
+                href="https://how-i-work.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <strong>here</strong> .
               </a>
               <br />
