@@ -29,7 +29,7 @@ function AboutMe() {
               className="profilePicture"
               src={profilePics}
               alt="my profile"
-              height="150px"
+              height="130px"
               width="auto"
             />
             <br />
@@ -54,15 +54,19 @@ function AboutMe() {
               </Button>
             </div>
             <p className="about-me-paragraph">
-              I'm a code doodler and challange seeker! As a pretty great learner
-              I always look for new skills and ways to improve myself.
-              Previously working as a team leader, I know what takes to build a
-              good team and what comes after, great product! I'm in a hunt for a
-              new interesting project to work on! Currently learning React
-              Native and Typescript! <br />
+              I'm a code doodler with a passion for building useful tools online
+              and good design. Previously working on managing positions, I know
+              how to build good fellowship and what comes next, great product!{' '}
               <br />
-              Scroll down to have a look at some of my latest work.
-              <br /> In case of any questions, I'll be happy to hear from you!
+              I'm in a hunt for a new interesting project to work on! I always
+              look for better, easier solutions to difficult problems. Currently
+              learning React Native and Typescript! You can read about the way I
+              work{' '}
+              <a href="https://how-i-work.netlify.app/">
+                <strong>here</strong> .
+              </a>
+              <br />
+              <br /> Feel free to contact me, I'll be happy to hear from you!
             </p>
           </div>
 

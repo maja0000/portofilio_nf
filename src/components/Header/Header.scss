@@ -12,7 +12,14 @@
   font-size: 3em;
   margin: 0;
 }
-
+.smile {
+  background-image: url('../../img/smile.png');
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 .header-headline {
   text-align: center;
   font-size: 2em;

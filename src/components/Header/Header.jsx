@@ -4,6 +4,7 @@ import './Header.scss';
 import Toggle from '../../img/toggle.svg';
 import GitHub from '../../img/gitHub.svg';
 import LinkedIn from '../../img/linkedIn.svg';
+import How from '../../img/how-i-work1.svg';
 
 import DownArrow from '../../img/downArrow.svg';
 
@@ -56,7 +57,6 @@ class Header extends React.Component {
               alt="Github button"
             />
           </a>
-
           <a
             href="https://www.linkedin.com/in/majagach/"
             target="_blank"
@@ -67,6 +67,18 @@ class Header extends React.Component {
               style={style.svgColor}
               src={LinkedIn}
               alt="linkedIn button"
+            />
+          </a>
+          <a
+            href=" https://how-i-work.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="header-social-item"
+              style={style.svgColor}
+              src={How}
+              alt="button to process page"
             />
           </a>
         </div>
