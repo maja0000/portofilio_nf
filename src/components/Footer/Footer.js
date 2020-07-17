@@ -15,7 +15,7 @@ export default function Footer() {
       }}
     >
       <span style={{ color: 'white', fontWeight: '700', marginRight: '30px' }}>
-        say hi !
+        Don't be a stranger
       </span>
       <a href="https://github.com/maja0000">
         <img
