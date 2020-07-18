@@ -113,7 +113,7 @@ class MyWork extends React.Component {
             />
           </div>
         </div>
-        <ProjectList projects={projects} styling={style} />
+        <ProjectList darkMode={darkMode} projects={projects} styling={style} />
       </section>
     );
   }

@@ -1,11 +1,12 @@
 import React from 'react';
 import './Project.scss';
 
-function Project({ title, img, styling, link, description }) {
+function Project({ title, img, styling, link, description, darkMode }) {
   const style = {
     ...styling,
     projectPic: {
       backgroundImage: `url("${img}")`,
+      border: darkMode ? '' : '1px solid darkgrey',
     },
 
     title: {
