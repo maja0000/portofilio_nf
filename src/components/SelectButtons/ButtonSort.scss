@@ -1,6 +1,6 @@
 .selector-project-button {
   background-color: transparent;
-  color: white;
+  // color: white;
   padding: 0.3em 1.3em;
   margin: 1em 0 0 1em;
   border: none;
@@ -14,5 +14,6 @@
   &:hover {
     background-size: 100%;
     border-radius: 20px;
+    color: white;
   }
 }

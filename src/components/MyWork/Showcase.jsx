@@ -83,6 +83,7 @@ class MyWork extends React.Component {
           </h1>
           <div className="select-project">
             <ButtonSort
+              darkMode={darkMode}
               className="option-button"
               onSelect={onSelectAll}
               text="select all"
@@ -93,16 +94,19 @@ class MyWork extends React.Component {
               text="html/css"
             /> */}
             <ButtonSort
+              darkMode={darkMode}
               className="option-button"
               onSelect={onSelectWork}
               text="react"
             />
             <ButtonSort
+              darkMode={darkMode}
               className="option-button"
               onSelect={onSelectWork}
               text="full stack"
             />
             <ButtonSort
+              darkMode={darkMode}
               className="option-button"
               onSelect={onSelectWork}
               text="hackathon"
