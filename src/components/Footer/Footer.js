@@ -5,11 +5,11 @@ import twitter from '../../img/icons/twitter-square.svg';
 import cv from '../../img/icons/cv2.svg';
 import contact from '../../img/icons/contact.svg';
 
-export default function Footer() {
+export default function Footer({ darkMode }) {
   return (
     <div
       style={{
-        backgroundColor: '#2e2e2e',
+        backgroundColor: darkMode ? '#2e2e2e' : 'white',
         display: 'flex',
         padding: '10px',
       }}

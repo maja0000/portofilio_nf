@@ -31,9 +31,10 @@ function AboutMe() {
               alt="my profile"
               height="130px"
               width="auto"
+              data-aos="fade-up-right"
             />
             <br />
-            <div className="cv-email-buttons">
+            <div data-aos="fade-left" className="cv-email-buttons">
               <Button
                 variant="outlined"
                 href="https://drive.google.com/file/d/1PCXJpCsTQjKXgLb2A42yaDgMNHy9pcAl/view?usp=sharing"
@@ -53,7 +54,7 @@ function AboutMe() {
                 email me
               </Button>
             </div>
-            <p className="about-me-paragraph">
+            <p data-aos="fade-right" className="about-me-paragraph">
               I'm a code doodler with a passion for building useful tools online
               and good design. Previously working on managing positions, I know
               how to build good fellowship and what comes next, great product!{' '}
@@ -78,6 +79,7 @@ function AboutMe() {
             {skills.map((skill) => (
               <div
                 className="skill-pair"
+                data-aos="fade-left"
                 style={{
                   display: 'flex',
                   flexDirection: 'column',
