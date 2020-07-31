@@ -9,7 +9,8 @@ export default function Footer({ darkMode }) {
   return (
     <div
       style={{
-        backgroundColor: darkMode ? '#2e2e2e' : 'white',
+        // backgroundColor: darkMode ? '#2e2e2e' : 'white',
+        backgroundColor: '#2e2e2e',
         display: 'flex',
         padding: '10px',
       }}
