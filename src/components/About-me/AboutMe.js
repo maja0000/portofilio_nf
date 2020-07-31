@@ -8,6 +8,7 @@ let skills = [
   { name: 'React', className: 'react skill' },
   { name: 'Node.js', className: 'node skill' },
   { name: 'MongoDB', className: 'mongodb skill' },
+  { name: 'MySQL', className: 'mysql skill' },
 
   { name: 'Redux', className: 'redux skill' },
   { name: 'Version control', className: 'git skill' },
