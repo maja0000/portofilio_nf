@@ -4,7 +4,10 @@
   height: 100vh;
   background: linear-gradient(180deg, salmon 0%, #acb6e5 100%);
 }
-
+.welcome {
+  color: transparent;
+  -webkit-text-stroke: 1px salmon;
+}
 .about-me-details {
   // display: flex;
   // flex-direction: column;

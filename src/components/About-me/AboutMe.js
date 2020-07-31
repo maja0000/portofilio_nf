@@ -24,7 +24,7 @@ function AboutMe() {
   return (
     <section id="about-me" className="section">
       <div className="about-me-details">
-        <h1 className="title">nice to meet you!</h1>
+        <h1 className="title welcome">nice to meet you!</h1>
         <div className="left-right-wrapper">
           <div className="about-left">
             <img

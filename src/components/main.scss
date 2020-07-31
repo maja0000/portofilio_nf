@@ -8,7 +8,8 @@ p {
   font-weight: 400;
 }
 .text-pink {
-  color: salmon;
+  color: transparent;
+  -webkit-text-stroke: 1px salmon;
 }
 .section {
   justify-content: center;
