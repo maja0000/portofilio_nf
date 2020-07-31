@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 let skills = [
   { name: 'JavaScript', className: 'js skill' },
   { name: 'React', className: 'react skill' },
+  { name: 'Node.js', className: 'node skill' },
   { name: 'MongoDB', className: 'mongodb skill' },
 
   { name: 'Redux', className: 'redux skill' },
