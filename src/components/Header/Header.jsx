@@ -36,7 +36,7 @@ class Header extends React.Component {
         </h3>
         <h1 className="header-headline-main title" style={style.textColor}>
           hey, I'm <span className="text-pink">Maja</span>.<br />
-          I'm a junior web developer.
+          I'm a web developer.
         </h1>
         <h1 className="header-headline " style={style.textColor}>
           Building in
