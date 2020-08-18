@@ -57,23 +57,31 @@ function AboutMe() {
               </Button>
             </div>
             <p data-aos="fade-right" className="about-me-paragraph">
-              I'm a code doodler with a passion for building useful tools online
-              and good design. Previously working on managing positions, I know
-              how to build good fellowship and what comes next, great product!{' '}
+              I'm a code doodler with passion for design and building useful
+              tools online. I have a people-first attitude and I'm not (yet!)
+              tech opinionated. Curious to learned anything new, currently React
+              Native and Typescript.
               <br />
-              I'm in a hunt for a new interesting project to work on! I always
-              look for better, easier solutions to difficult problems. Currently
-              learning React Native and Typescript! You can read about the way I
-              work{' '}
+              I'm in a hunt for a new interesting project to work on! You can
+              read about the way I work{' '}
               <a
                 href="https://how-i-work.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>here</strong> .
+                <strong>here</strong>.
+              </a>{' '}
+              Or check out my daily progress on
+              <a
+                href="https://twitter.com/maja_gch"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <strong> twitter</strong>.
               </a>
               <br />
-              <br /> Feel free to contact me, I'll be happy to hear from you!
+              <br /> If you think I could help you build something on the web,
+              feel free to contact me, I'll be happy to hear from you!
             </p>
           </div>
 
