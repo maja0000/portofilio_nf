@@ -59,7 +59,7 @@ function AboutMe() {
             <p data-aos="fade-right" className="about-me-paragraph">
               I'm a code doodler with passion for design and building useful
               tools online. I have a people-first attitude and I'm not (yet!)
-              tech opinionated. Curious to learned anything new, currently React
+              tech opinionated. Curious to learn anything new, currently React
               Native and Typescript.
               <br />
               I'm in a hunt for a new interesting project to work on! You can
