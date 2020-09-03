@@ -85,7 +85,7 @@ class MyWork extends React.Component {
           >
             <strong>
               {' '}
-              <h4 className="code-doodles">see my daily mini-pojects</h4>
+              <h4 className="code-doodles">check out my daily mini-pojects</h4>
             </strong>
           </a>{' '}
           <h1 className="title" style={style.textColor}>
