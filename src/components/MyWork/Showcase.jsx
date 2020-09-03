@@ -78,8 +78,18 @@ class MyWork extends React.Component {
     return (
       <section id="myWork" style={style.bg}>
         <div className="titleButtons">
+          <a
+            href="https://code-doodles.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <strong>
+              {' '}
+              <h4 className="code-doodles">see my daily mini-pojects</h4>
+            </strong>
+          </a>{' '}
           <h1 className="title" style={style.textColor}>
-            last projects
+            my portfolio
           </h1>
           <div className="select-project">
             <ButtonSort
